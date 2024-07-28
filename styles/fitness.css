@@ -423,7 +423,12 @@ th{
             margin-top: -2rem;
             margin-bottom: -6.5rem;
         }
-        .body{margin: 2rem 1.5rem}
+        .body{
+            max-width: 576px;
+            margin: 2rem 1.5rem;
+
+            
+        }
         .nav-links{display: none;
         }
         .menubar{display: flex;}
@@ -512,7 +517,9 @@ th{
            text-align: left;
            margin-left: -13rem;
         } */
-        #hr{max-width: 546px;}
+        #hr{
+            width: auto;
+            margin: 1rem 2rem;
     }
         
             
