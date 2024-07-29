@@ -108,6 +108,7 @@
 .shape{
     font-size: 12rem;
     font-weight: 300;
+    margin-right: .5rem;
 }
 .title-margin{
     margin-top: -4rem;
@@ -391,6 +392,7 @@ th{
  .footer-bottom{
     text-align: center;
     padding-bottom: 2rem;
+    margin-bottom: 0;
  } 
  .sl{
     list-style: none;
@@ -510,18 +512,13 @@ th{
             margin-left: 0;
             text-align: left;
         }
-        /* .s-lists{margin-left: 0;
-            text-align: left;
-        } */
-        /* .get1, .get2{
-           text-align: left;
-           margin-left: -13rem;
-        } */
+        .break br{
+            display: none;
+        }
         #hr{
             width: auto;
             margin: 1rem 2rem;
-    }
-        
-            
+    }     
+    .footer-bottom{margin-bottom: -2rem;}
     
-    
+}
