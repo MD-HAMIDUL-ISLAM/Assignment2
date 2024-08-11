@@ -243,6 +243,8 @@
     max-height: 22rem;
     max-height: 18rem;
     border-radius: 1.5rem;
+    object-fit: none;
+    object-position: 68% 32%;
 }
 .run{ 
     margin-top: 4rem;
