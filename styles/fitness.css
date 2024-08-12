@@ -472,6 +472,11 @@ th{
         .protein, .fat{display: flex; flex-direction: column-reverse;}
         .protein,.carb, .fat{margin-bottom: 1rem;}
         .run{flex-direction: column;}
+        .run-img{object-fit: none;
+            object-position: 70% 30%;
+            zoom: 60%;
+            /* scale: 150%; */
+        }
         .run-content{margin-bottom: 2rem;}
         .bmi-body{
             flex-direction: column;
